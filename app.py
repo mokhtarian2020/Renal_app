@@ -4,7 +4,7 @@ import joblib
 
 # Load the trained model and scaler
 model = joblib.load('log_reg_model.pkl')
-scaler = joblib.load('scale.pkl')
+scaler = joblib.load('scaler.pkl')
 
 # Define input ranges for each category
 mild_bun_range = (10, 50)
